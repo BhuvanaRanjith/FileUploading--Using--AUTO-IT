@@ -49,9 +49,7 @@ public class FileUpload {
         driver.findElement(By.id("radioJpeg")).click();
         driver.findElement(By.xpath("//div[@class='cong-modal-desktop']/button[@name='download']")).click();
         driver.findElement(By.id("googleBtn")).click();
-
-
-
+        driver.close();
 
             }
 }

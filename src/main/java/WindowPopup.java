@@ -24,5 +24,6 @@ public class WindowPopup {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         driver.findElement(By.linkText("Basic Auth")).click();
+        driver.close();
     }
 }
